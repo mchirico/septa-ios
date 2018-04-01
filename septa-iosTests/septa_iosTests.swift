@@ -38,6 +38,13 @@ class septa_iosTests: XCTestCase {
     
   }
   
+  func testIncrement() {
+    let counter = Counter()
+    counter.increment()
+    XCTAssert(counter.count == 1)
+    
+  }
+  
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
