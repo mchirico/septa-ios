@@ -8,7 +8,7 @@ class Counter {
     count += amount
   }
   func reset() {
-    count = 0
+    count = 1
   }
 }
 
