@@ -5,7 +5,7 @@ xcode_scheme: Pods-septa-iosTests
 podfile: Podfile
 
 before_install:
--  pod install
+-  pod repo update
 -  pod update
 
 script:
