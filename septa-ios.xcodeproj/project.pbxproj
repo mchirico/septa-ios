@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		435AD407CC722C5D424C0A3C /* Pods_septa_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A46A03AC536104C6ECED52 /* Pods_septa_iosTests.framework */; };
+		615F62498107B369922D8F54 /* Pods_septa_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF246E8C7D0F4E28D290302 /* Pods_septa_iosUITests.framework */; };
+		940ECE021D0D9E3D06D6B499 /* Pods_septa_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B107EDEDDA96674E61A64590 /* Pods_septa_ios.framework */; };
 		A5CA6D2820711D3D00D96B86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6D2720711D3D00D96B86 /* AppDelegate.swift */; };
 		A5CA6D2A20711D3D00D96B86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6D2920711D3D00D96B86 /* ViewController.swift */; };
 		A5CA6D2D20711D3D00D96B86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CA6D2B20711D3D00D96B86 /* Main.storyboard */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AD79A7B661A031C923B7DBE /* Pods-septa-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-septa-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-septa-iosUITests/Pods-septa-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17995A8F7B0179C1F413A215 /* Pods-septa-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-septa-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-septa-ios/Pods-septa-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		83A46A03AC536104C6ECED52 /* Pods_septa_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_septa_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B620C3B843E69A681306F13 /* Pods-septa-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-septa-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-septa-iosUITests/Pods-septa-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A5CA6D2420711D3D00D96B86 /* septa-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "septa-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CA6D2720711D3D00D96B86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CA6D2920711D3D00D96B86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		A5CA6D4320711D3E00D96B86 /* septa-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "septa-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CA6D4720711D3E00D96B86 /* septa_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = septa_iosUITests.swift; sourceTree = "<group>"; };
 		A5CA6D4920711D3E00D96B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B107EDEDDA96674E61A64590 /* Pods_septa_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_septa_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C108BCBBBCF03B8C12434C1A /* Pods-septa-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-septa-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-septa-ios/Pods-septa-ios.release.xcconfig"; sourceTree = "<group>"; };
+		CB5F38771130709DDC35C41B /* Pods-septa-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-septa-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-septa-iosTests/Pods-septa-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4C723B12162577431AD9132 /* Pods-septa-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-septa-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-septa-iosTests/Pods-septa-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		FBF246E8C7D0F4E28D290302 /* Pods_septa_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_septa_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940ECE021D0D9E3D06D6B499 /* Pods_septa_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435AD407CC722C5D424C0A3C /* Pods_septa_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				615F62498107B369922D8F54 /* Pods_septa_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				A5CA6D3B20711D3E00D96B86 /* septa-iosTests */,
 				A5CA6D4620711D3E00D96B86 /* septa-iosUITests */,
 				A5CA6D2520711D3D00D96B86 /* Products */,
+				C048360CFB2523DA9334CA59 /* Pods */,
+				FF51815CA2A32A4814032946 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = "septa-iosUITests";
 			sourceTree = "<group>";
 		};
+		C048360CFB2523DA9334CA59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17995A8F7B0179C1F413A215 /* Pods-septa-ios.debug.xcconfig */,
+				C108BCBBBCF03B8C12434C1A /* Pods-septa-ios.release.xcconfig */,
+				CB5F38771130709DDC35C41B /* Pods-septa-iosTests.debug.xcconfig */,
+				F4C723B12162577431AD9132 /* Pods-septa-iosTests.release.xcconfig */,
+				0AD79A7B661A031C923B7DBE /* Pods-septa-iosUITests.debug.xcconfig */,
+				9B620C3B843E69A681306F13 /* Pods-septa-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF51815CA2A32A4814032946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B107EDEDDA96674E61A64590 /* Pods_septa_ios.framework */,
+				83A46A03AC536104C6ECED52 /* Pods_septa_iosTests.framework */,
+				FBF246E8C7D0F4E28D290302 /* Pods_septa_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5CA6D4C20711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-ios" */;
 			buildPhases = (
+				C0B940C0E6BA3EC31BFA4BD7 /* [CP] Check Pods Manifest.lock */,
 				A5CA6D2020711D3D00D96B86 /* Sources */,
 				A5CA6D2120711D3D00D96B86 /* Frameworks */,
 				A5CA6D2220711D3D00D96B86 /* Resources */,
+				F5A68A26B1DBA047D43900BA /* [CP] Embed Pods Frameworks */,
+				E2AE107E6A947B57DFFC10C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5CA6D4F20711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-iosTests" */;
 			buildPhases = (
+				FEAB81B5C09F1C5A8C6BA10D /* [CP] Check Pods Manifest.lock */,
 				A5CA6D3420711D3E00D96B86 /* Sources */,
 				A5CA6D3520711D3E00D96B86 /* Frameworks */,
 				A5CA6D3620711D3E00D96B86 /* Resources */,
+				815CD8FB06810353A300E29A /* [CP] Embed Pods Frameworks */,
+				FAE72F7C4228F7EAAD4BCFE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5CA6D5220711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-iosUITests" */;
 			buildPhases = (
+				A856806CB4EBE06F5CB0AB48 /* [CP] Check Pods Manifest.lock */,
 				A5CA6D3F20711D3E00D96B86 /* Sources */,
 				A5CA6D4020711D3E00D96B86 /* Frameworks */,
 				A5CA6D4120711D3E00D96B86 /* Resources */,
+				6BED274F0FBB707EF2EC4A2E /* [CP] Embed Pods Frameworks */,
+				1654D79E5AE5B9714B55E661 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +299,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1654D79E5AE5B9714B55E661 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-septa-iosUITests/Pods-septa-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BED274F0FBB707EF2EC4A2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-septa-iosUITests/Pods-septa-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		815CD8FB06810353A300E29A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-septa-iosTests/Pods-septa-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A856806CB4EBE06F5CB0AB48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-septa-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0B940C0E6BA3EC31BFA4BD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-septa-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2AE107E6A947B57DFFC10C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-septa-ios/Pods-septa-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A68A26B1DBA047D43900BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-septa-ios/Pods-septa-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE72F7C4228F7EAAD4BCFE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-septa-iosTests/Pods-septa-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEAB81B5C09F1C5A8C6BA10D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-septa-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5CA6D2020711D3D00D96B86 /* Sources */ = {
@@ -428,15 +624,13 @@
 		};
 		A5CA6D4D20711D3E00D96B86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17995A8F7B0179C1F413A215 /* Pods-septa-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +640,13 @@
 		};
 		A5CA6D4E20711D3E00D96B86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C108BCBBBCF03B8C12434C1A /* Pods-septa-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +656,14 @@
 		};
 		A5CA6D5020711D3E00D96B86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB5F38771130709DDC35C41B /* Pods-septa-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +674,14 @@
 		};
 		A5CA6D5120711D3E00D96B86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C723B12162577431AD9132 /* Pods-septa-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +692,13 @@
 		};
 		A5CA6D5320711D3E00D96B86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD79A7B661A031C923B7DBE /* Pods-septa-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +709,13 @@
 		};
 		A5CA6D5420711D3E00D96B86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B620C3B843E69A681306F13 /* Pods-septa-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
