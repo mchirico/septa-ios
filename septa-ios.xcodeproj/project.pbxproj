@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5CA6D2820711D3D00D96B86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6D2720711D3D00D96B86 /* AppDelegate.swift */; };
+		A5CA6D2A20711D3D00D96B86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6D2920711D3D00D96B86 /* ViewController.swift */; };
+		A5CA6D2D20711D3D00D96B86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CA6D2B20711D3D00D96B86 /* Main.storyboard */; };
+		A5CA6D2F20711D3E00D96B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CA6D2E20711D3E00D96B86 /* Assets.xcassets */; };
+		A5CA6D3220711D3E00D96B86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CA6D3020711D3E00D96B86 /* LaunchScreen.storyboard */; };
+		A5CA6D3D20711D3E00D96B86 /* septa_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6D3C20711D3E00D96B86 /* septa_iosTests.swift */; };
+		A5CA6D4820711D3E00D96B86 /* septa_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6D4720711D3E00D96B86 /* septa_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5CA6D3920711D3E00D96B86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5CA6D1C20711D3D00D96B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5CA6D2320711D3D00D96B86;
+			remoteInfo = "septa-ios";
+		};
+		A5CA6D4420711D3E00D96B86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5CA6D1C20711D3D00D96B86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5CA6D2320711D3D00D96B86;
+			remoteInfo = "septa-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5CA6D2420711D3D00D96B86 /* septa-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "septa-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CA6D2720711D3D00D96B86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5CA6D2920711D3D00D96B86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5CA6D2C20711D3D00D96B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5CA6D2E20711D3E00D96B86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5CA6D3120711D3E00D96B86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5CA6D3320711D3E00D96B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CA6D3820711D3E00D96B86 /* septa-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "septa-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CA6D3C20711D3E00D96B86 /* septa_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = septa_iosTests.swift; sourceTree = "<group>"; };
+		A5CA6D3E20711D3E00D96B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CA6D4320711D3E00D96B86 /* septa-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "septa-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CA6D4720711D3E00D96B86 /* septa_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = septa_iosUITests.swift; sourceTree = "<group>"; };
+		A5CA6D4920711D3E00D96B86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5CA6D2120711D3D00D96B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CA6D3520711D3E00D96B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CA6D4020711D3E00D96B86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5CA6D1B20711D3C00D96B86 = {
+			isa = PBXGroup;
+			children = (
+				A5CA6D2620711D3D00D96B86 /* septa-ios */,
+				A5CA6D3B20711D3E00D96B86 /* septa-iosTests */,
+				A5CA6D4620711D3E00D96B86 /* septa-iosUITests */,
+				A5CA6D2520711D3D00D96B86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5CA6D2520711D3D00D96B86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA6D2420711D3D00D96B86 /* septa-ios.app */,
+				A5CA6D3820711D3E00D96B86 /* septa-iosTests.xctest */,
+				A5CA6D4320711D3E00D96B86 /* septa-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5CA6D2620711D3D00D96B86 /* septa-ios */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA6D2720711D3D00D96B86 /* AppDelegate.swift */,
+				A5CA6D2920711D3D00D96B86 /* ViewController.swift */,
+				A5CA6D2B20711D3D00D96B86 /* Main.storyboard */,
+				A5CA6D2E20711D3E00D96B86 /* Assets.xcassets */,
+				A5CA6D3020711D3E00D96B86 /* LaunchScreen.storyboard */,
+				A5CA6D3320711D3E00D96B86 /* Info.plist */,
+			);
+			path = "septa-ios";
+			sourceTree = "<group>";
+		};
+		A5CA6D3B20711D3E00D96B86 /* septa-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA6D3C20711D3E00D96B86 /* septa_iosTests.swift */,
+				A5CA6D3E20711D3E00D96B86 /* Info.plist */,
+			);
+			path = "septa-iosTests";
+			sourceTree = "<group>";
+		};
+		A5CA6D4620711D3E00D96B86 /* septa-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA6D4720711D3E00D96B86 /* septa_iosUITests.swift */,
+				A5CA6D4920711D3E00D96B86 /* Info.plist */,
+			);
+			path = "septa-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5CA6D2320711D3D00D96B86 /* septa-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CA6D4C20711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-ios" */;
+			buildPhases = (
+				A5CA6D2020711D3D00D96B86 /* Sources */,
+				A5CA6D2120711D3D00D96B86 /* Frameworks */,
+				A5CA6D2220711D3D00D96B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "septa-ios";
+			productName = "septa-ios";
+			productReference = A5CA6D2420711D3D00D96B86 /* septa-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5CA6D3720711D3E00D96B86 /* septa-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CA6D4F20711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-iosTests" */;
+			buildPhases = (
+				A5CA6D3420711D3E00D96B86 /* Sources */,
+				A5CA6D3520711D3E00D96B86 /* Frameworks */,
+				A5CA6D3620711D3E00D96B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5CA6D3A20711D3E00D96B86 /* PBXTargetDependency */,
+			);
+			name = "septa-iosTests";
+			productName = "septa-iosTests";
+			productReference = A5CA6D3820711D3E00D96B86 /* septa-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5CA6D4220711D3E00D96B86 /* septa-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CA6D5220711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-iosUITests" */;
+			buildPhases = (
+				A5CA6D3F20711D3E00D96B86 /* Sources */,
+				A5CA6D4020711D3E00D96B86 /* Frameworks */,
+				A5CA6D4120711D3E00D96B86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5CA6D4520711D3E00D96B86 /* PBXTargetDependency */,
+			);
+			name = "septa-iosUITests";
+			productName = "septa-iosUITests";
+			productReference = A5CA6D4320711D3E00D96B86 /* septa-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5CA6D1C20711D3D00D96B86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Michael Chirico";
+				TargetAttributes = {
+					A5CA6D2320711D3D00D96B86 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A5CA6D3720711D3E00D96B86 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A5CA6D2320711D3D00D96B86;
+					};
+					A5CA6D4220711D3E00D96B86 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A5CA6D2320711D3D00D96B86;
+					};
+				};
+			};
+			buildConfigurationList = A5CA6D1F20711D3D00D96B86 /* Build configuration list for PBXProject "septa-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5CA6D1B20711D3C00D96B86;
+			productRefGroup = A5CA6D2520711D3D00D96B86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5CA6D2320711D3D00D96B86 /* septa-ios */,
+				A5CA6D3720711D3E00D96B86 /* septa-iosTests */,
+				A5CA6D4220711D3E00D96B86 /* septa-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5CA6D2220711D3D00D96B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CA6D3220711D3E00D96B86 /* LaunchScreen.storyboard in Resources */,
+				A5CA6D2F20711D3E00D96B86 /* Assets.xcassets in Resources */,
+				A5CA6D2D20711D3D00D96B86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CA6D3620711D3E00D96B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CA6D4120711D3E00D96B86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5CA6D2020711D3D00D96B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CA6D2A20711D3D00D96B86 /* ViewController.swift in Sources */,
+				A5CA6D2820711D3D00D96B86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CA6D3420711D3E00D96B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CA6D3D20711D3E00D96B86 /* septa_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CA6D3F20711D3E00D96B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CA6D4820711D3E00D96B86 /* septa_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5CA6D3A20711D3E00D96B86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5CA6D2320711D3D00D96B86 /* septa-ios */;
+			targetProxy = A5CA6D3920711D3E00D96B86 /* PBXContainerItemProxy */;
+		};
+		A5CA6D4520711D3E00D96B86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5CA6D2320711D3D00D96B86 /* septa-ios */;
+			targetProxy = A5CA6D4420711D3E00D96B86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5CA6D2B20711D3D00D96B86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5CA6D2C20711D3D00D96B86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5CA6D3020711D3E00D96B86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5CA6D3120711D3E00D96B86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5CA6D4A20711D3E00D96B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5CA6D4B20711D3E00D96B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5CA6D4D20711D3E00D96B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = "septa-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5CA6D4E20711D3E00D96B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = "septa-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5CA6D5020711D3E00D96B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = "septa-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/septa-ios.app/septa-ios";
+			};
+			name = Debug;
+		};
+		A5CA6D5120711D3E00D96B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = "septa-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/septa-ios.app/septa-ios";
+			};
+			name = Release;
+		};
+		A5CA6D5320711D3E00D96B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = "septa-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "septa-ios";
+			};
+			name = Debug;
+		};
+		A5CA6D5420711D3E00D96B86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = "septa-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "septa-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5CA6D1F20711D3D00D96B86 /* Build configuration list for PBXProject "septa-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CA6D4A20711D3E00D96B86 /* Debug */,
+				A5CA6D4B20711D3E00D96B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5CA6D4C20711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CA6D4D20711D3E00D96B86 /* Debug */,
+				A5CA6D4E20711D3E00D96B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5CA6D4F20711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CA6D5020711D3E00D96B86 /* Debug */,
+				A5CA6D5120711D3E00D96B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5CA6D5220711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CA6D5320711D3E00D96B86 /* Debug */,
+				A5CA6D5420711D3E00D96B86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5CA6D1C20711D3D00D96B86 /* Project object */;
+}
