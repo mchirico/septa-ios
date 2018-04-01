@@ -25,10 +25,19 @@ class septa_iosTests: XCTestCase {
     func testExample() {
       let counter = Counter()
       counter.increment(by: 3)
-      
       XCTAssert(counter.count == 3)
 
     }
+  
+  func testReset() {
+    let counter = Counter()
+    counter.increment(by: 3)
+    XCTAssert(counter.count == 3)
+    counter.reset()
+    XCTAssert(counter.count == 0)
+    
+  }
+  
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
