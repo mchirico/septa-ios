@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>septa-ios.xcscheme</key>
+		<key>septa-ios.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A5CA6D2320711D3D00D96B86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5CA6D3720711D3E00D96B86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5CA6D4220711D3E00D96B86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
