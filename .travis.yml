@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: septa-ios.xcworkspace # path to your xcodeproj folder
+xcode_scheme: septa-iosTests
+
