@@ -5,10 +5,11 @@ xcode_scheme: Pods-septa-iosTests
 podfile: Podfile
 
 before_install:
-- pod install
-- pod update
+
 
 script:
+-  pod install
+-  pod update
 -  xcodebuild build -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' -quiet
 -  xcodebuild test -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'  -quiet
 
