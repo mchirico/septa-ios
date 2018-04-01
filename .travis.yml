@@ -2,6 +2,7 @@ language: objective-c
 osx_image: xcode9.3beta
 xcode_workspace: septa-ios.xcworkspace # path to your xcodeproj folder
 xcode_scheme: Pods-septa-iosTests
+podfile: Podfile
 
 script:
   xcodebuild build -sdk iphonesimulator -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO
