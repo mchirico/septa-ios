@@ -4,7 +4,7 @@ xcode_workspace: septa-ios.xcworkspace # path to your xcodeproj folder
 xcode_scheme: Pods-septa-iosTests
 podfile: Podfile
 
-#before_install:
+before_install:
 # - gem install cocoapods
 -  pod repo update
 -  pod update
