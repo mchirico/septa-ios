@@ -4,9 +4,9 @@ xcode_workspace: septa-ios.xcworkspace # path to your xcodeproj folder
 xcode_scheme: Pods-septa-iosTests
 podfile: Podfile
 
-before_install:
--  pod repo update
--  pod update
+#before_install:
+#-  pod repo update
+#-  pod update
 
 script:
 -  xcodebuild build -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' -quiet
