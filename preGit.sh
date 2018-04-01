@@ -4,7 +4,8 @@ xcodebuild build -sdk iphonesimulator -workspace septa-ios.xcworkspace -scheme P
 # This works
 xcodebuild test -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'
 
-xcodebuild build -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'
+
+xctool -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests run-tests CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' -sdk iphonesimulator
 
 
 
