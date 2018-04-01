@@ -5,6 +5,7 @@ xcode_scheme: Pods-septa-iosTests
 podfile: Podfile
 
 #before_install:
+# - gem install cocoapods
 -  pod repo update
 -  pod update
 
