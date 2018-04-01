@@ -1,4 +1,6 @@
 #!/bin/bash
+git add Pods
+
 xcodebuild build clean -sdk iphonesimulator -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO
 xcodebuild build  -sdk iphonesimulator -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO
 
