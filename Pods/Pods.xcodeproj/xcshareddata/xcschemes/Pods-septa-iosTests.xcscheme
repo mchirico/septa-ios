@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EA8D8D705CCB3B875E446A2511C34ACF"
+               BlueprintIdentifier = "2489F94A350F1EF457CBB4BF795F0A00"
                BuildableName = "Pods_septa_iosTests.framework"
                BlueprintName = "Pods-septa-iosTests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA8D8D705CCB3B875E446A2511C34ACF"
+            BlueprintIdentifier = "2489F94A350F1EF457CBB4BF795F0A00"
             BuildableName = "Pods_septa_iosTests.framework"
             BlueprintName = "Pods-septa-iosTests"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA8D8D705CCB3B875E446A2511C34ACF"
+            BlueprintIdentifier = "2489F94A350F1EF457CBB4BF795F0A00"
             BuildableName = "Pods_septa_iosTests.framework"
             BlueprintName = "Pods-septa-iosTests"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EA8D8D705CCB3B875E446A2511C34ACF"
+            BlueprintIdentifier = "2489F94A350F1EF457CBB4BF795F0A00"
             BuildableName = "Pods_septa_iosTests.framework"
             BlueprintName = "Pods-septa-iosTests"
             ReferencedContainer = "container:Pods.xcodeproj">
