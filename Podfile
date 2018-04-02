@@ -7,17 +7,30 @@ target 'septa-ios' do
 
   # Pods for septa-ios
   pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+pod 'Firebase/Storage'
 
   target 'septa-iosTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'Firebase/Core'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
   end
 
   target 'septa-iosUITests' do
     inherit! :search_paths
     # Pods for testing
     pod 'Firebase/Core'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Database'
+    pod 'Firebase/Storage'
+
   end
 
 end
