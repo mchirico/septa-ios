@@ -11,6 +11,9 @@
 		615F62498107B369922D8F54 /* Pods_septa_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF246E8C7D0F4E28D290302 /* Pods_septa_iosUITests.framework */; };
 		940ECE021D0D9E3D06D6B499 /* Pods_septa_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B107EDEDDA96674E61A64590 /* Pods_septa_ios.framework */; };
 		A55F7780207160C80009F461 /* SampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55F777F207160C80009F461 /* SampleClass.swift */; };
+		A5B57EAB2071AD2400880C15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5B57EAA2071AD2400880C15 /* GoogleService-Info.plist */; };
+		A5B57EAC2071AD2400880C15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5B57EAA2071AD2400880C15 /* GoogleService-Info.plist */; };
+		A5B57EAD2071AD2400880C15 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5B57EAA2071AD2400880C15 /* GoogleService-Info.plist */; };
 		A5CA6D2820711D3D00D96B86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6D2720711D3D00D96B86 /* AppDelegate.swift */; };
 		A5CA6D2A20711D3D00D96B86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA6D2920711D3D00D96B86 /* ViewController.swift */; };
 		A5CA6D2D20711D3D00D96B86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CA6D2B20711D3D00D96B86 /* Main.storyboard */; };
@@ -43,6 +46,7 @@
 		83A46A03AC536104C6ECED52 /* Pods_septa_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_septa_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B620C3B843E69A681306F13 /* Pods-septa-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-septa-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-septa-iosUITests/Pods-septa-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A55F777F207160C80009F461 /* SampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleClass.swift; sourceTree = "<group>"; };
+		A5B57EAA2071AD2400880C15 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A5CA6D2420711D3D00D96B86 /* septa-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "septa-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CA6D2720711D3D00D96B86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CA6D2920711D3D00D96B86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +126,7 @@
 				A5CA6D2B20711D3D00D96B86 /* Main.storyboard */,
 				A5CA6D2E20711D3E00D96B86 /* Assets.xcassets */,
 				A5CA6D3020711D3E00D96B86 /* LaunchScreen.storyboard */,
+				A5B57EAA2071AD2400880C15 /* GoogleService-Info.plist */,
 				A5CA6D3320711D3E00D96B86 /* Info.plist */,
 			);
 			path = "septa-ios";
@@ -282,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5CA6D3220711D3E00D96B86 /* LaunchScreen.storyboard in Resources */,
+				A5B57EAB2071AD2400880C15 /* GoogleService-Info.plist in Resources */,
 				A5CA6D2F20711D3E00D96B86 /* Assets.xcassets in Resources */,
 				A5CA6D2D20711D3D00D96B86 /* Main.storyboard in Resources */,
 			);
@@ -291,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B57EAC2071AD2400880C15 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B57EAD2071AD2400880C15 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -697,7 +705,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -713,7 +724,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-ios/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -730,7 +744,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -748,7 +766,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-iosTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -766,7 +788,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -785,7 +811,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UWJCYGVG9Z;
 				INFOPLIST_FILE = "septa-iosUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cwxstat.septa.septa-iosUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -1,21 +1,16 @@
 language: objective-c
 osx_image: xcode9.3beta
-xcode_workspace: septa-ios.xcworkspace # path to your xcodeproj folder
+xcode_workspace: septa-ios.xcworkspace
 xcode_scheme: Pods-septa-iosTests
 podfile: Podfile
-
 before_install:
-# - gem install cocoapods
--  pod repo update
-#  (No pod update... we have everything in the repo)
-# -  pod update
-
+- openssl aes-256-cbc -K $encrypted_d4e92fccdcb7_key -iv $encrypted_d4e92fccdcb7_iv
+  -in GoogleService-Info.plist.enc -out septa-ios/GoogleService-Info.plist -d
+- pod repo update
 script:
--  xcodebuild build -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' -quiet
--  xcodebuild test -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'  -quiet
-
-# Test of xctool
--  xctool -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests run-tests CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' -sdk iphonesimulator
-
-
-
+- xcodebuild build -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO
+  -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' -quiet
+- xcodebuild test -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests CODE_SIGNING_REQUIRED=NO
+  -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3'  -quiet
+- xctool -workspace septa-ios.xcworkspace -scheme Pods-septa-iosTests run-tests CODE_SIGNING_REQUIRED=NO
+  -destination 'platform=iOS Simulator,name=iPhone X,OS=11.3' -sdk iphonesimulator
