@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2489F94A350F1EF457CBB4BF795F0A00"
+               BlueprintIdentifier = "E7EA06219EDAEF82C609B180FCDD93AC"
                BuildableName = "Pods_septa_iosTests.framework"
                BlueprintName = "Pods-septa-iosTests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -42,7 +43,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2489F94A350F1EF457CBB4BF795F0A00"
+            BlueprintIdentifier = "E7EA06219EDAEF82C609B180FCDD93AC"
             BuildableName = "Pods_septa_iosTests.framework"
             BlueprintName = "Pods-septa-iosTests"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -64,7 +65,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2489F94A350F1EF457CBB4BF795F0A00"
+            BlueprintIdentifier = "E7EA06219EDAEF82C609B180FCDD93AC"
             BuildableName = "Pods_septa_iosTests.framework"
             BlueprintName = "Pods-septa-iosTests"
             ReferencedContainer = "container:Pods.xcodeproj">
@@ -82,7 +83,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2489F94A350F1EF457CBB4BF795F0A00"
+            BlueprintIdentifier = "E7EA06219EDAEF82C609B180FCDD93AC"
             BuildableName = "Pods_septa_iosTests.framework"
             BlueprintName = "Pods-septa-iosTests"
             ReferencedContainer = "container:Pods.xcodeproj">
