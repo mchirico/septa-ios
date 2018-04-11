@@ -835,7 +835,7 @@
 				A5CA6D4B20711D3E00D96B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A5CA6D4C20711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-ios" */ = {
 			isa = XCConfigurationList;
@@ -844,7 +844,7 @@
 				A5CA6D4E20711D3E00D96B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A5CA6D4F20711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -853,7 +853,7 @@
 				A5CA6D5120711D3E00D96B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A5CA6D5220711D3E00D96B86 /* Build configuration list for PBXNativeTarget "septa-iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -862,7 +862,7 @@
 				A5CA6D5420711D3E00D96B86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
